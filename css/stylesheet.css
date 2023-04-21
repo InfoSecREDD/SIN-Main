@@ -3,6 +3,14 @@ body {
     background-color: black;
     tabindex: 0;
 }
+
+iframe {
+    display: block;       /* iframes are inline by default */
+    border: none;         /* Reset default border */
+    height: 96vh;        /* Viewport-relative units */
+    width: 100vw;
+}
+
 .dropbtn {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
