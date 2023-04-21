@@ -2,14 +2,13 @@
 body {
     background-color: black;
     tabindex: 0;
-    overflow-y: hidden;
 }
 
 iframe {
     display: block;       /* iframes are inline by default */
     border: none;         /* Reset default border */
-    height: 90vh;        /* Viewport-relative units */
-    width: 100vw;
+    height: 50vh;        /* Viewport-relative units */
+    width: 98vw;
 }
 
 .dropbtn {
