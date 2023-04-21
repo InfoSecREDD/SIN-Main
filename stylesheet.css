@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+.dropbtn {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 4px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: Trebuchet MS;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(o,o,o,2);
+    z-index: auto;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: Trebuchet MS;
+}
+
+.dropdown-content a:hover {background-color: #9c9ca9}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+iframe {
+    size: auto;
+}
