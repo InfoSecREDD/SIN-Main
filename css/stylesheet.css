@@ -4,10 +4,6 @@ body {
     tabindex: 0;
 }
 
-html, body {
-    margin: 0; height: 100%; overflow: hidden
-
-}
 iframe {
     display: block;       /* iframes are inline by default */
     border: none;         /* Reset default border */
